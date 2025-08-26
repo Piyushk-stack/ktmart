@@ -10,7 +10,7 @@ import Pasta from "./pages/Pasta";
 import Jamss from "./pages/PackagedFoods/Jamss";
 import Sweet from "./pages/PackagedFoods/Sweet";
 import Snackss from "./pages/PackagedFoods/Snackss";
-
+    
 // Temporary Login Page (you can style later)
 const LoginPage = () => {
   return (
