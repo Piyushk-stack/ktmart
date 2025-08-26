@@ -90,10 +90,18 @@ const Hero = () => {
     navigate("/snacks&drinks");
   }
 
+  const handleCookingClick = () => {
+    navigate("/cookingoil1");
+  }
+
+  const handleGheeClick = () => {
+    navigate("/ghee");
+  }
+
   const row1 = [
     { img: atta, label: "Atta, Rice & Dal", onClick: handleGroceryClick },
-    { img: cookingoil, label: "Cooking Oil", },
-    { img: ghee, label: "Ghee & Vanaspati" },
+    { img: cookingoil, label: "Cooking Oil", onClick: handleCookingClick },
+    { img: ghee, label: "Ghee & Vanaspati", onClick: handleGheeClick },
     { img: masale, label: "Masala & Spices" },
     { img: tea, label: "Tea, Coffee & Beverages" },
     { img: dairy, label: "Dairy, Bread & Eggs" },
