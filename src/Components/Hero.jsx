@@ -91,11 +91,15 @@ const Hero = () => {
   }
 
   const handleCookingClick = () => {
-    navigate("/cookingoil1");
+    navigate("/cookingoil");
   }
 
   const handleGheeClick = () => {
     navigate("/ghee");
+  }
+
+  const handleDrinnksClick = () => {
+    navigate("/drinks");
   }
 
   const row1 = [
@@ -116,7 +120,7 @@ const Hero = () => {
     { img: pasta, label: "Pasta & Noodles", onClick: handlePastaClick },
     { img: jams, label: "Jams & Spreads", onClick: handlejamsClick },
     { img: chips, label: "Chips & Namkeens", onClick: handleSnacksClick },
-    { img: drinks, label: "Drinks & Juices" },
+    { img: drinks, label: "Drinks & Juices", onClick: handleDrinnksClick },
     { img: sweets, label: "Sweets", onClick: handleSweetClick },
   ];
 
