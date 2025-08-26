@@ -9,8 +9,15 @@ import Chocolatess from "./pages/PackagedFoods/Chocolatess";
 import Pasta from "./pages/Pasta";
 import Jamss from "./pages/PackagedFoods/Jamss";
 import Sweet from "./pages/PackagedFoods/Sweet";
+<<<<<<< HEAD
 import Snackss from "./pages/PackagedFoods/Snackss";
     
+=======
+import Cookingoil1 from "./pages/Grocery/kcookingoil/Cookingoil1";
+import Ghee from "./pages/Grocery/gheeandvanaspati/Ghee";
+// import Snackss from "./pages/PackagedFoods/Snackss";
+
+>>>>>>> 4304be53445f0d5239207b6d66ed54a9cc29e92d
 // Temporary Login Page (you can style later)
 const LoginPage = () => {
   return (
@@ -39,7 +46,13 @@ const App = () => {
         <Route path="/pastaa" element={<Pasta/>} />
         <Route path="/jamss" element={<Jamss/>} />
         <Route path="/sweets" element={<Sweet/>} />
+<<<<<<< HEAD
         <Route path="/snacks&drinks" element={<Snackss/>} /> 
+=======
+        <Route path="/cookingoil1" element={<Cookingoil1/>} />
+        <Route path="/ghee" element={<Ghee/>} />
+        {/* <Route path="/snacks&drinks" element={<Snackss/>} /> */}
+>>>>>>> 4304be53445f0d5239207b6d66ed54a9cc29e92d
       </Routes>
     </Router>
   );
