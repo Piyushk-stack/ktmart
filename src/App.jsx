@@ -9,7 +9,7 @@ import Chocolatess from "./pages/PackagedFoods/Chocolatess";
 import Pasta from "./pages/Pasta";
 import Jamss from "./pages/PackagedFoods/Jamss";
 import Sweet from "./pages/PackagedFoods/Sweet";
-// import Snackss from "./pages/PackagedFoods/Snackss";
+import Snackss from "./pages/PackagedFoods/Snackss";
 
 // Temporary Login Page (you can style later)
 const LoginPage = () => {
@@ -39,7 +39,7 @@ const App = () => {
         <Route path="/pastaa" element={<Pasta/>} />
         <Route path="/jamss" element={<Jamss/>} />
         <Route path="/sweets" element={<Sweet/>} />
-        {/* <Route path="/snacks&drinks" element={<Snackss/>} /> */}
+        <Route path="/snacks&drinks" element={<Snackss/>} /> 
       </Routes>
     </Router>
   );
