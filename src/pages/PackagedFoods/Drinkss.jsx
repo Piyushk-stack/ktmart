@@ -252,7 +252,7 @@ const Snackss = () => {
         <div className="flex-1">
           {/* Banner */}
           <span className="font-bold text-lg sm:text-2xl">
-            Pasta & Noodles
+            Drinks & Beverages
           </span>
 
           {/* Product Grid */}
