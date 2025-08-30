@@ -277,7 +277,7 @@ const HealthP = () => {
         <div className="flex-1">
           {/* Banner */}
           <span className="font-bold text-lg sm:text-2xl">
-            Baby Care
+           Health & Pharma
           </span>
 
           {/* Product Grid */}
