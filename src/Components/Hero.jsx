@@ -102,6 +102,30 @@ const Hero = () => {
     navigate("/drinks");
   }
 
+  const handleoralClick = () => {
+    navigate("/oralcare");
+  }
+
+  const handleHairClick = () => {
+    navigate("/haircare");
+  }
+
+  const handleBathClick = () => {
+    navigate("/bathandbody");
+  }
+
+  const handleBabyClick = () => {
+    navigate("/babycare");
+  }
+
+  const handleBeautyClick = () => {
+    navigate("/beautycos");
+  }
+
+  const handleHealthClick = () => {
+    navigate("/health");
+  }
+
   const row1 = [
     { img: atta, label: "Atta, Rice & Dal", onClick: handleGroceryClick },
     { img: cookingoil, label: "Cooking Oil", onClick: handleCookingClick },
@@ -125,14 +149,14 @@ const Hero = () => {
   ];
 
   const row3 = [
-    { img: oral, label: "Oral Care" },
-    { img: hair, label: "Hair Care" },
-    { img: bath, label: "Bath & Body" },
-    { img: skin, label: "Skin Care" },
+    { img: oral, label: "Oral Care", onClick: handleoralClick },
+    { img: hair, label: "Hair Care", onClick: handleHairClick },
+    { img: bath, label: "Bath & Body", onClick: handleBathClick },
+    { img: skin, label: "Skin Care", onClick: handleBathClick },
     { img: femini, label: "Feminine Needs" },
-    { img: babycare, label: "Baby Care" },
-    { img: beauty1, label: "Beauty & Cosmetics" },
-    { img: health, label: "Health & Pharma" },
+    { img: babycare, label: "Baby Care",onClick: handleBabyClick },
+    { img: beauty1, label: "Beauty & Cosmetics", onClick:handleBeautyClick },
+    { img: health, label: "Health & Pharma", onClick:handleHealthClick},
   ];
 
   const row4 = [
@@ -161,8 +185,11 @@ const Hero = () => {
         </h2>
         <CategoryRow items={row2} />
 
-        <h2 className="text-lg sm:text-xl p-2 sm:p-3 mt-3 font-semibold">
-          Beauty & Personal Care
+        <h2
+          className="text-lg sm:text-xl p-2 sm:p-3 mt-3 font-semibold cursor-pointer hover:text-blue-600"
+          onClick={handleoralClick}
+        >
+          <span>Beauty & Personal Care</span>
         </h2>
         <CategoryRow items={row3} />
 

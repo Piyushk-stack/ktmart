@@ -10,9 +10,15 @@ import Pasta from "./pages/Pasta";
 import Jamss from "./pages/PackagedFoods/Jamss";
 import Sweet from "./pages/PackagedFoods/Sweet";
 import Snackss from "./pages/PackagedFoods/Snackss";
-import Cookingoil1 from './pages/Grocery/kcookingoil/Cookingoil1'    
-import Ghee from './pages/Grocery/gheeandvanaspati/Ghee';
-import Drinkss from './pages/PackagedFoods/Drinkss';
+import Cookingoil1 from "./pages/Grocery/kcookingoil/Cookingoil1";
+import Ghee from "./pages/Grocery/gheeandvanaspati/Ghee";
+import Drinkss from "./pages/PackagedFoods/Drinkss";
+import Orall from "./pages/Beauty&PersonalCare/Orall";
+import HairCare from "./pages/Beauty&PersonalCare/HairCare";
+import Bathandbody from "./pages/Beauty&PersonalCare/Bathandbody";
+import Baby from "./pages/Beauty&PersonalCare/Baby";
+import Beautyy from "./pages/Beauty&PersonalCare/Beautyy";
+import HealthP from "./pages/Beauty&PersonalCare/HealthP";
 // Temporary Login Page (you can style later)
 const LoginPage = () => {
   return (
@@ -37,14 +43,20 @@ const App = () => {
         <Route path="/grocery" element={<Grocery />} />
         <Route path="/biscuits" element={<PackagedFood />} />
         <Route path="/breakfast" element={<BreakFastt />} />
-        <Route path="/chocolates" element={<Chocolatess/>} />
-        <Route path="/pastaa" element={<Pasta/>} />
-        <Route path="/jamss" element={<Jamss/>} />
-        <Route path="/sweets" element={<Sweet/>} />
-        <Route path="/snacks&drinks" element={<Snackss/>} /> 
-        <Route path="/cookingoil" element={<Cookingoil1/>} />
-         <Route path="/ghee" element={<Ghee/>} />
-         <Route path="/drinks" element={<Drinkss/>} />
+        <Route path="/chocolates" element={<Chocolatess />} />
+        <Route path="/pastaa" element={<Pasta />} />
+        <Route path="/jamss" element={<Jamss />} />
+        <Route path="/sweets" element={<Sweet />} />
+        <Route path="/snacks&drinks" element={<Snackss />} />
+        <Route path="/cookingoil" element={<Cookingoil1 />} />
+        <Route path="/ghee" element={<Ghee />} />
+        <Route path="/drinks" element={<Drinkss />} />
+        <Route path="/oralcare" element={<Orall />} />
+        <Route path="/haircare" element={<HairCare />} />
+        <Route path="/bathandbody" element={<Bathandbody />} />
+        <Route path="/babycare" element={<Baby />} />
+        <Route path="/beautycos" element={<Beautyy />} />
+        <Route path="/health" element={<HealthP/>} />
       </Routes>
     </Router>
   );
