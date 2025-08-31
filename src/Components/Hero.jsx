@@ -98,7 +98,6 @@ const Hero = () => {
     navigate("/ghee");
   }
 
-<<<<<<< HEAD
   const handleMasalaClick = () => {
     navigate("/masala1");
   }
@@ -116,34 +115,6 @@ const Hero = () => {
 
   const handleTeaClick = () => {
     navigate("/tea");
-=======
-  const handleDrinnksClick = () => {
-    navigate("/drinks");
-  }
-
-  const handleoralClick = () => {
-    navigate("/oralcare");
-  }
-
-  const handleHairClick = () => {
-    navigate("/haircare");
-  }
-
-  const handleBathClick = () => {
-    navigate("/bathandbody");
-  }
-
-  const handleBabyClick = () => {
-    navigate("/babycare");
-  }
-
-  const handleBeautyClick = () => {
-    navigate("/beautycos");
-  }
-
-  const handleHealthClick = () => {
-    navigate("/health");
->>>>>>> d7737b94b7aed7f96efc658a89e00dd079a9fd90
   }
 
   const row1 = [
