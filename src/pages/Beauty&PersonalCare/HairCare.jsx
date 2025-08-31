@@ -1,158 +1,155 @@
 import React, {UseState} from "react";
 // Main
-import Biscuits_Cookies from '../../pages/PackagedFoods/Biscuits/Biscuits_Cookies.webp';
+
 
 // cards image
-import Breakfastmain from "../../pages/PackagedFoods/BreakFast/Breakfastmain.webp";
-import Chocolatesmain from "../../pages/PackagedFoods/Chocolates/Chocolatesmain.webp";
-import Ketchupmain from "../../pages/PackagedFoods/Ketchups/Ketchupmain.webp";
-import Pastamain from "../../pages/PackagedFoods/Pasta&Noodles/Pastamain.webp";
-import Jamsmain from "../../pages/PackagedFoods/Jams/Jamsmain.webp";
-import Instantmain from "../../pages/PackagedFoods/InstantFood/Instantmain.webp";
-import Snacksmain from "../../pages/PackagedFoods/Snacks/Snacksmain.webp";
-import Sweets from "../../pages/PackagedFoods/Sweets/Sweets.webp";
-import Bakery from "../../pages/PackagedFoods/Bakery/Bakery.webp";
-import Pickles from "../../pages/PackagedFoods/Pickles/Pickles.webp";
+import Oral_Care from '../Beauty&PersonalCare/Side/Oral_Care.webp';
+import Hair_care from '../Beauty&PersonalCare/Side/Hair_care.webp';
+import Skin_Care from '../Beauty&PersonalCare/Side/Skin_Care.webp';
+import Sanitary_Napkins from '../Beauty&PersonalCare/Side/Sanitary_Napkins.webp';
+import Baby_Care_1 from '../Beauty&PersonalCare/Side/Baby_Care_1.webp';
+import Beauty_Products from '../Beauty&PersonalCare/Side/Beauty_Products.webp';
+import Health___Wellness from '../Beauty&PersonalCare/Side/Health___Wellness.webp';
+import Bath_Body_1x_1 from '../Beauty&PersonalCare/Side/Bath_Body_1x_1.webp';
+// categories images in
 
 // images in main
-import besanladdu from "../PackagedFoods/Sweets/besanladdu.webp";
-import boondiladoo from "../PackagedFoods/Sweets/boondiladoo.webp";
-import chikki from "../PackagedFoods/Sweets/chikki.webp";
-import halwa from "../PackagedFoods/Sweets/halwa.webp";
-import mooti from "../PackagedFoods/Sweets/mooti.webp";
-import mysorepaak from "../PackagedFoods/Sweets/mysorepaak.webp";
-import poriladdu from "../PackagedFoods/Sweets/poriladdu.webp";
-import sonpapddi from "../PackagedFoods/Sweets/sonpapddi.webp";
+import Hair1 from '../Beauty&PersonalCare/Hair/Hair1.avif';
+import hair2 from '../Beauty&PersonalCare/Hair/hair2.avif';
+import hair3 from '../Beauty&PersonalCare/Hair/hair3.avif';
+import hair4 from '../Beauty&PersonalCare/Hair/hair4.avif';
+import hair5 from '../Beauty&PersonalCare/Hair/hair5.avif';
+import hair6 from '../Beauty&PersonalCare/Hair/hair6.avif';
+import hair7 from '../Beauty&PersonalCare/Hair/hair7.avif';
+import hair8 from '../Beauty&PersonalCare/Hair/hair8.avif';
 
-
-
-const Sweet = () => {
+const HairCare = () => {
   const products = [
     {
       id: 1,
-      name: "SRI DAIRY MOTICHOOR LADOO 250G",
-      image: mooti ,
-      originalPrice: 165,
-      discountedPrice: 82.5,
+      name: "Shampoo ",
+      image:  Hair1,
+      originalPrice: 272,
+      discountedPrice: 136,
     //   discountPercent: 37,
     },
     {
       id: 2,
-      name: "SRI DAIRY TIRUNELVELI HALWA 100G",
-      image: halwa,
-      originalPrice: 70,
-      discountedPrice: 35,
+      name: "Shampoo Demo",
+      image: hair2,
+      originalPrice: 244,
+      discountedPrice: 187,
     //   discountPercent: 50,
     },
     {
       id: 3,
-      name: "LAL SHAHI SOAN PAPDI 200G BOGO",
-      image: sonpapddi,
-      originalPrice: 150,
-      discountedPrice: 75,
+      name: "Shampoo Sample",
+      image: hair3,
+      originalPrice: 158,
+      discountedPrice: 149,
     //   discountPercent: 6,
     },
     {
       id: 4,
-      name: "LAL BESAN LADDOO REG 200G",
-      image: besanladdu,
-      originalPrice: 150,
-      discountedPrice: 75,
+      name: "Shampoo Test",
+      image: hair4,
+      originalPrice: 222,
+      discountedPrice: 182,
     //   discountPercent: 50,
     },
     {
       id: 5,
-      name: "SRI DAIRY BOONDI LADOO 250G",
-      image: boondiladoo,
-      originalPrice: 155,
-      discountedPrice: 77,
+      name: "Shampoo Try",
+      image: hair5,
+      originalPrice: 190,
+      discountedPrice: 166,
     //   discountPercent: 4,
     },
     {
       id: 6,
-      name: "PON PON PEANUT CHIKKI 160G",
-      image: chikki,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "Shampoo Exam",
+      image: hair6,
+      originalPrice: 90,
+      discountedPrice: 78,
     //   discountPercent: 37,
     },
     {
       id: 7,
-      name: "LAL MYSOREPAK CLASSIC 200G",
-      image: mysorepaak,
-      originalPrice: 190,
-      discountedPrice: 95,
+      name: "Shampoo Check",
+      image: hair7,
+      originalPrice: 120,
+      discountedPrice: 99,
     //   discountPercent: 50,
     },
     {
       id: 8,
-      name: "PON PON PORI LADU 200G",
-      image: poriladdu,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "Shampoo Quiz",
+      image: hair8,
+      originalPrice: 145,
+      discountedPrice: 122,
     //   discountPercent: 37,
     },
     // {
     //   id: 9,
-    //   name: "Yippee Noodles Magic Masala",
-    //   image: moodmasala,
-    //   originalPrice: 88,
-    //   discountedPrice: 81,
+    //   name: "Colgate Herble Toothpaste",
+    //   image: herbel,
+    //   originalPrice: 150,
+    //   discountedPrice: 99,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 10,
-    //   name: "Maggi 2Min Noodles Veg Masala 248G",
-    //   image: maggie12,
-    //   originalPrice: 65,
-    //   discountedPrice: 60,
+    //   name: "Colgate Vedshakthi Toothpaste",
+    //   image: vedshakti,
+    //   originalPrice: 130,
+    //   discountedPrice: 90,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 11, 
-    //   name: "Maggi 2-Minute Masala Instant Noodles",
-    //   image: maggie2,
-    //   originalPrice: 62,
-    //   discountedPrice: 60,
+    //   name: "Colgate Max Fresh Peppermint Toothpaste",
+    //   image: maxfreshblue,
+    //   originalPrice: 194,
+    //   discountedPrice: 172,
     // //   discountPercent: 50,
     // },{
     //   id: 12,
-    //   name: "NISSIN CUP NOODLES SEA FOOD 70G",
-    //   image: seafood,
-    //   originalPrice:55,
-    //   discountedPrice: 52.5,
+    //   name: "Pepsodent Germi Check Toothpaste",
+    //   image: pepsodent,
+    //   originalPrice:190,
+    //   discountedPrice: 142.5,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 13,
-    //   name: "NISSIN CUP NOODLES MUTTON ROGAN JOSH 70G",
-    //   image: cup,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.2,
+    //   name: "TOO YUMM AMERICAN STYLE CREAM N ONION CHIPS 84G",
+    //   image: greentoo,
+    //   originalPrice: 70,
+    //   discountedPrice: 35,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 14,
-    //   name: "TOP RAMEN CUP N MAZEDAAR MASALA 70G",
-    //   image: cupmasala,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.5,
+    //   name: "TOO YUMM VEGGIE STIX SOUR CREAM N ONION 65G PLUS 10G FREE",
+    //   image: tooyumvegi,
+    //   originalPrice: 40,
+    //   discountedPrice: 30,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 15,
-    //   name: "CHINGS VEG NOODLES 150G",
-    //   image: chings,
-    //   originalPrice: 32,
+    //   name: "TOO YUMM INDIAN MASALA CHIPS 92G",
+    //   image: tooyumblue,
+    //   originalPrice: 40,
     //   discountedPrice: 30,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 16,
-    //   name: "Ying Yang Hakka Noodles",
-    //   image: hakka,
-    //   originalPrice: 69,
-    //   discountedPrice: 65,
+    //   name: "DORITOS NACHO SWEET CHILLI 153G",
+    //   image: doritos,
+    //   originalPrice: 95,
+    //   discountedPrice: 90,
     // //   discountPercent: 37,
     // },
     // {
@@ -190,23 +187,23 @@ const Sweet = () => {
   ];
 
   const categories = [
-    { img: Biscuits_Cookies, label: "Biscuits & Cookies" },
-    { img: Breakfastmain, label: "BreakFast & Cereals" },
-    { img: Chocolatesmain, label: "Chocolates & Candies" },
-    { img: Ketchupmain, label: "Ketchup & Sauces" },
-    { img: Pastamain, label: "Pasta & Noodles" },
-    { img: Jamsmain, label: "Jams & Spreads" },
-    { img: Instantmain, label: "Instant Food" },
-    { img: Snacksmain, label: "Snacks & Farsans" },
-    { img: Sweets, label: "Sweets" },
-    { img: Bakery, label: "Bakery Items" },
-    { img: Pickles, label: "Pickles" },
+    { img: Oral_Care, label: "Oral Care" }, 
+    { img: Hair_care, label: "Hair Care" },
+    { img: Bath_Body_1x_1, label: "Bath & Body" },
+    { img: Skin_Care, label: "Skin Care" },
+    { img: Sanitary_Napkins, label: "Feminine Needs" },
+    { img: Baby_Care_1, label: "Baby Care" },
+    { img: Beauty_Products, label: "Beauty & Cosmatics" },
+    { img: Health___Wellness, label: "Health & Pharma" },
+    // { img: Sweets, label: "Sweets" },
+    // { img: Bakery, label: "Bakery Items" },
+    // { img: Pickles, label: "Pickles" },
   ];
 
   return (
     <div className="px-2 sm:px-4 md:px-8 lg:px-20 mt-38 py-6">
       {/* Page Title */}
-      <h1 className="font-semibold text-xl sm:text-2xl mb-6">Packaged Foods</h1>
+      <h1 className="font-semibold text-xl sm:text-2xl mb-6">Beauty & Personal Care </h1>
 
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Sidebar Categories */}
@@ -252,7 +249,7 @@ const Sweet = () => {
         <div className="flex-1">
           {/* Banner */}
           <span className="font-bold text-lg sm:text-2xl">
-            Sweets 
+            Hair Care
           </span>
 
           {/* Product Grid */}
@@ -306,4 +303,4 @@ const Sweet = () => {
   );
 };
 
-export default Sweet;
+export default HairCare;

@@ -22,7 +22,14 @@ import green from '../PackagedFoods/Snacks/green.webp';
 import kurkure from '../PackagedFoods/Snacks/kurkure.webp';
 import kurkuregreen from '../PackagedFoods/Snacks/kurkuregreen.webp';
 import lays from '../PackagedFoods/Snacks/lays.webp';
-
+import lays1 from '../PackagedFoods/Snacks/lays1.webp';
+import littleheart from '../PackagedFoods/Snacks/littleheart.webp';
+import parleschips from '../PackagedFoods/Snacks/parleschips.webp';
+import pringles from '../PackagedFoods/Snacks/pringles.webp';
+import greentoo from '../PackagedFoods/Snacks/greentoo.webp';
+import tooyumblue from '../PackagedFoods/Snacks/tooyumblue.webp';
+import tooyumvegi from '../PackagedFoods/Snacks/tooyumvegi.webp';
+import doritos from '../PackagedFoods/Snacks/doritos.webp';
 
 
 
@@ -30,131 +37,131 @@ const Snackss = () => {
   const products = [
     {
       id: 1,
-      name: "SRI DAIRY MOTICHOOR LADOO 250G",
-      image: mooti ,
-      originalPrice: 165,
-      discountedPrice: 82.5,
+      name: "LAYS HOT AND SWEET CHILLI 48G",
+      image: lays ,
+      originalPrice: 21,
+      discountedPrice: 20,
     //   discountPercent: 37,
     },
     {
       id: 2,
-      name: "SRI DAIRY TIRUNELVELI HALWA 100G",
-      image: halwa,
-      originalPrice: 70,
-      discountedPrice: 35,
+      name: "Lays Indias Magic Masala Potato Chips",
+      image: lays1,
+      originalPrice: 50,
+      discountedPrice: 33.5,
     //   discountPercent: 50,
     },
     {
       id: 3,
-      name: "LAL SHAHI SOAN PAPDI 200G BOGO",
-      image: sonpapddi,
-      originalPrice: 150,
-      discountedPrice: 75,
+      name: "KURKURE MASALA MUNCH 40G",
+      image: kurkure,
+      originalPrice: 11,
+      discountedPrice: 10,
     //   discountPercent: 6,
     },
     {
       id: 4,
-      name: "LAL BESAN LADDOO REG 200G",
-      image: besanladdu,
+      name: "Lays American Style Cream & Onion Potato Chips",
+      image: green,
       originalPrice: 150,
       discountedPrice: 75,
     //   discountPercent: 50,
     },
     {
       id: 5,
-      name: "SRI DAIRY BOONDI LADOO 250G",
-      image: boondiladoo,
-      originalPrice: 155,
-      discountedPrice: 77,
+      name: "BRITANNIA LITTLE HEARTS 70G",
+      image: littleheart,
+      originalPrice: 30,
+      discountedPrice: 24,
     //   discountPercent: 4,
     },
     {
       id: 6,
-      name: "PON PON PEANUT CHIKKI 160G",
-      image: chikki,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "Lays American Style Cream & Onion Potato Chips",
+      image: green,
+      originalPrice: 38,
+      discountedPrice: 35
     //   discountPercent: 37,
     },
     {
       id: 7,
-      name: "LAL MYSOREPAK CLASSIC 200G",
-      image: mysorepaak,
-      originalPrice: 190,
-      discountedPrice: 95,
+      name: "PARLEWAFERS CLASSIC SALTED 60G",
+      image: parleschips,
+      originalPrice: 30,
+      discountedPrice: 27,
     //   discountPercent: 50,
     },
     {
       id: 8,
-      name: "PON PON PORI LADU 200G",
-      image: poriladdu,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "ACT II Golden Sizzle Popcorn (3 pcs)",
+      image: act,
+      originalPrice: 40,
+      discountedPrice: 38,
     //   discountPercent: 37,
     },
-    // {
-    //   id: 9,
-    //   name: "Yippee Noodles Magic Masala",
-    //   image: moodmasala,
-    //   originalPrice: 88,
-    //   discountedPrice: 81,
-    // //   discountPercent: 50,
-    // },
-    // {
-    //   id: 10,
-    //   name: "Maggi 2Min Noodles Veg Masala 248G",
-    //   image: maggie12,
-    //   originalPrice: 65,
-    //   discountedPrice: 60,
-    // //   discountPercent: 37,
-    // },
-    // {
-    //   id: 11, 
-    //   name: "Maggi 2-Minute Masala Instant Noodles",
-    //   image: maggie2,
-    //   originalPrice: 62,
-    //   discountedPrice: 60,
-    // //   discountPercent: 50,
-    // },{
-    //   id: 12,
-    //   name: "NISSIN CUP NOODLES SEA FOOD 70G",
-    //   image: seafood,
-    //   originalPrice:55,
-    //   discountedPrice: 52.5,
-    // //   discountPercent: 37,
-    // },
-    // {
-    //   id: 13,
-    //   name: "NISSIN CUP NOODLES MUTTON ROGAN JOSH 70G",
-    //   image: cup,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.2,
-    // //   discountPercent: 50,
-    // },
-    // {
-    //   id: 14,
-    //   name: "TOP RAMEN CUP N MAZEDAAR MASALA 70G",
-    //   image: cupmasala,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.5,
-    // //   discountPercent: 37,
-    // },
-    // {
-    //   id: 15,
-    //   name: "CHINGS VEG NOODLES 150G",
-    //   image: chings,
-    //   originalPrice: 32,
-    //   discountedPrice: 30,
-    // //   discountPercent: 50,
-    // },
-    // {
-    //   id: 16,
-    //   name: "Ying Yang Hakka Noodles",
-    //   image: hakka,
-    //   originalPrice: 69,
-    //   discountedPrice: 65,
-    // //   discountPercent: 37,
-    // },
+    {
+      id: 9,
+      name: "BINGO ORIGINAL STYLE CHILLI SPNKLD 90G",
+      image: bingo,
+      originalPrice: 50,
+      discountedPrice: 33.5,
+    //   discountPercent: 50,
+    },
+    {
+      id: 10,
+      name: "Kaleva Bikaneri Bhujia750G",
+      image: bujiya,
+      originalPrice: 360,
+      discountedPrice: 180,
+    //   discountPercent: 37,
+    },
+    {
+      id: 11, 
+      name: "KURKURE GREEN CHUTNEY RAJASTANI STL 36G",
+      image: kurkuregreen,
+      originalPrice: 10,
+      discountedPrice: 10,
+    //   discountPercent: 50,
+    },{
+      id: 12,
+      name: "PRINGLES POTATO CRISPS SOUR CREAM AND ONION 141G",
+      image: pringles,
+      originalPrice:190,
+      discountedPrice: 142.5,
+    //   discountPercent: 37,
+    },
+    {
+      id: 13,
+      name: "TOO YUMM AMERICAN STYLE CREAM N ONION CHIPS 84G",
+      image: greentoo,
+      originalPrice: 70,
+      discountedPrice: 35,
+    //   discountPercent: 50,
+    },
+    {
+      id: 14,
+      name: "TOO YUMM VEGGIE STIX SOUR CREAM N ONION 65G PLUS 10G FREE",
+      image: tooyumvegi,
+      originalPrice: 40,
+      discountedPrice: 30,
+    //   discountPercent: 37,
+    },
+    {
+      id: 15,
+      name: "TOO YUMM INDIAN MASALA CHIPS 92G",
+      image: tooyumblue,
+      originalPrice: 40,
+      discountedPrice: 30,
+    //   discountPercent: 50,
+    },
+    {
+      id: 16,
+      name: "DORITOS NACHO SWEET CHILLI 153G",
+      image: doritos,
+      originalPrice: 95,
+      discountedPrice: 90,
+    //   discountPercent: 37,
+    },
     // {
     //   id: 18,
     //   name: "SAVORIT VERMICELLI LONG CUT 500G",
@@ -252,7 +259,7 @@ const Snackss = () => {
         <div className="flex-1">
           {/* Banner */}
           <span className="font-bold text-lg sm:text-2xl">
-            Pasta & Noodles
+             Snacks & Farsans
           </span>
 
           {/* Product Grid */}

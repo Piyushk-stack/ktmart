@@ -11,22 +11,22 @@ import dry from '../../img/Grocery/dry.jpeg';
 import organo from '../../img/Grocery/organo.jpg';
 import salt from '../../img/Grocery/salt.jpeg';
 
-import img1 from '../../../pages/Grocery/gheeandvanaspati/img1.webp'
-import img2 from '../../../pages/Grocery/gheeandvanaspati/img2.webp'
-import img3 from '../../../pages/Grocery/gheeandvanaspati/img3.webp'
-import img4 from '../../../pages/Grocery/gheeandvanaspati/img4.webp'
-import img5 from '../../../pages/Grocery/gheeandvanaspati/img5.webp'
-import img6 from '../../../pages/Grocery/gheeandvanaspati/img6.webp'
-import img7 from '../../../pages/Grocery/gheeandvanaspati/img7.webp'
-import img8 from '../../../pages/Grocery/gheeandvanaspati/img8.webp'
-import img9 from '../../../pages/Grocery/gheeandvanaspati/img9.webp'
-import img10 from '../../../pages/Grocery/gheeandvanaspati/img10.webp'
-import img11 from '../../../pages/Grocery/gheeandvanaspati/img11.webp'
-import img12 from '../../../pages/Grocery/gheeandvanaspati/img12.webp'
-import img13 from '../../../pages/Grocery/gheeandvanaspati/img13.webp'
-import img14 from '../../../pages/Grocery/gheeandvanaspati/img14.webp'
-import img15 from '../../../pages/Grocery/gheeandvanaspati/img15.webp'
-import img16 from '../../../pages/Grocery/gheeandvanaspati/img16.webp'
+import img1 from './img1.webp'
+import img2 from './img2.webp'
+import img3 from './img3.webp'
+import img4 from './img4.webp'
+import img5 from './img5.webp'
+import img6 from './img6.webp'
+import img7 from './img7.webp'
+import img8 from './img8.webp'
+import img9 from './img9.webp'
+import img10 from './img10.webp'
+import img11 from './img11.webp'
+import img12 from './img12.webp'
+import img13 from './img13.webp'
+import img14 from './img14.webp'
+import img15 from './img15.webp'
+import img16 from './img16.webp'
 // import oil17 from '../../../pages/Grocery/kcookingoil/oil17.webp';
 // import oil18 from '../../../pages/Grocery/kcookingoil/oil18.webp';
 // import oil19 from '../../../pages/Grocery/kcookingoil/oil19.webp';

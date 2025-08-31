@@ -15,144 +15,144 @@ import Bakery from "../../pages/PackagedFoods/Bakery/Bakery.webp";
 import Pickles from "../../pages/PackagedFoods/Pickles/Pickles.webp";
 
 // images in main
-import besanladdu from "../PackagedFoods/Sweets/besanladdu.webp";
-import boondiladoo from "../PackagedFoods/Sweets/boondiladoo.webp";
-import chikki from "../PackagedFoods/Sweets/chikki.webp";
-import halwa from "../PackagedFoods/Sweets/halwa.webp";
-import mooti from "../PackagedFoods/Sweets/mooti.webp";
-import mysorepaak from "../PackagedFoods/Sweets/mysorepaak.webp";
-import poriladdu from "../PackagedFoods/Sweets/poriladdu.webp";
-import sonpapddi from "../PackagedFoods/Sweets/sonpapddi.webp";
+import appy from '../PackagedFoods/Drinks/appy.webp';
+import cokacola from '../PackagedFoods/Drinks/cokacola.webp';
+import fanta from '../PackagedFoods/Drinks/fanta.webp';
+import frooti from '../PackagedFoods/Drinks/frooti.webp';
+import mirinda from '../PackagedFoods/Drinks/mirinda.webp';
+import real from '../PackagedFoods/Drinks/real.webp';
+import redbull from '../PackagedFoods/Drinks/redbull.webp';
+import thub from '../PackagedFoods/Drinks/thub.webp';
 
 
 
-const Sweet = () => {
+const Snackss = () => {
   const products = [
     {
       id: 1,
-      name: "SRI DAIRY MOTICHOOR LADOO 250G",
-      image: mooti ,
-      originalPrice: 165,
-      discountedPrice: 82.5,
+      name: "COCA-COLA SOFT DRINK",
+      image:  cokacola,
+      originalPrice: 100,
+      discountedPrice: 90,
     //   discountPercent: 37,
     },
     {
       id: 2,
-      name: "SRI DAIRY TIRUNELVELI HALWA 100G",
-      image: halwa,
-      originalPrice: 70,
-      discountedPrice: 35,
+      name: "FANTA ORANGE SOFT",
+      image: fanta,
+      originalPrice: 100,
+      discountedPrice: 85,
     //   discountPercent: 50,
     },
     {
       id: 3,
-      name: "LAL SHAHI SOAN PAPDI 200G BOGO",
-      image: sonpapddi,
-      originalPrice: 150,
-      discountedPrice: 75,
+      name: "MIERINDA ORANGE SOFT DRINK",
+      image: mirinda,
+      originalPrice: 38,
+      discountedPrice: 35,
     //   discountPercent: 6,
     },
     {
       id: 4,
-      name: "LAL BESAN LADDOO REG 200G",
-      image: besanladdu,
-      originalPrice: 150,
-      discountedPrice: 75,
+      name: "THUMBS UP SOFT DRINK",
+      image: thub,
+      originalPrice: 40,
+      discountedPrice: 38,
     //   discountPercent: 50,
     },
     {
       id: 5,
-      name: "SRI DAIRY BOONDI LADOO 250G",
-      image: boondiladoo,
-      originalPrice: 155,
-      discountedPrice: 77,
+      name: "Red Bull Energy Drink",
+      image: redbull,
+      originalPrice: 130,
+      discountedPrice: 125,
     //   discountPercent: 4,
     },
     {
       id: 6,
-      name: "PON PON PEANUT CHIKKI 160G",
-      image: chikki,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "Frooti Mango Drink",
+      image: frooti,
+      originalPrice: 45,
+      discountedPrice: 40,
     //   discountPercent: 37,
     },
     {
       id: 7,
-      name: "LAL MYSOREPAK CLASSIC 200G",
-      image: mysorepaak,
-      originalPrice: 190,
-      discountedPrice: 95,
+      name: "Real mixed fruit juice",
+      image: real,
+      originalPrice: 20,
+      discountedPrice: 17,
     //   discountPercent: 50,
     },
     {
       id: 8,
-      name: "PON PON PORI LADU 200G",
-      image: poriladdu,
-      originalPrice: 65,
-      discountedPrice: 58.5,
+      name: "Appy Fizz Apple Drink",
+      image: appy,
+      originalPrice: 42,
+      discountedPrice: 40,
     //   discountPercent: 37,
     },
     // {
     //   id: 9,
-    //   name: "Yippee Noodles Magic Masala",
-    //   image: moodmasala,
-    //   originalPrice: 88,
-    //   discountedPrice: 81,
+    //   name: "BINGO ORIGINAL STYLE CHILLI SPNKLD 90G",
+    //   image: bingo,
+    //   originalPrice: 50,
+    //   discountedPrice: 33.5,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 10,
-    //   name: "Maggi 2Min Noodles Veg Masala 248G",
-    //   image: maggie12,
-    //   originalPrice: 65,
-    //   discountedPrice: 60,
+    //   name: "Kaleva Bikaneri Bhujia750G",
+    //   image: bujiya,
+    //   originalPrice: 360,
+    //   discountedPrice: 180,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 11, 
-    //   name: "Maggi 2-Minute Masala Instant Noodles",
-    //   image: maggie2,
-    //   originalPrice: 62,
-    //   discountedPrice: 60,
+    //   name: "KURKURE GREEN CHUTNEY RAJASTANI STL 36G",
+    //   image: kurkuregreen,
+    //   originalPrice: 10,
+    //   discountedPrice: 10,
     // //   discountPercent: 50,
     // },{
     //   id: 12,
-    //   name: "NISSIN CUP NOODLES SEA FOOD 70G",
-    //   image: seafood,
-    //   originalPrice:55,
-    //   discountedPrice: 52.5,
+    //   name: "PRINGLES POTATO CRISPS SOUR CREAM AND ONION 141G",
+    //   image: pringles,
+    //   originalPrice:190,
+    //   discountedPrice: 142.5,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 13,
-    //   name: "NISSIN CUP NOODLES MUTTON ROGAN JOSH 70G",
-    //   image: cup,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.2,
+    //   name: "TOO YUMM AMERICAN STYLE CREAM N ONION CHIPS 84G",
+    //   image: greentoo,
+    //   originalPrice: 70,
+    //   discountedPrice: 35,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 14,
-    //   name: "TOP RAMEN CUP N MAZEDAAR MASALA 70G",
-    //   image: cupmasala,
-    //   originalPrice: 55,
-    //   discountedPrice: 52.5,
+    //   name: "TOO YUMM VEGGIE STIX SOUR CREAM N ONION 65G PLUS 10G FREE",
+    //   image: tooyumvegi,
+    //   originalPrice: 40,
+    //   discountedPrice: 30,
     // //   discountPercent: 37,
     // },
     // {
     //   id: 15,
-    //   name: "CHINGS VEG NOODLES 150G",
-    //   image: chings,
-    //   originalPrice: 32,
+    //   name: "TOO YUMM INDIAN MASALA CHIPS 92G",
+    //   image: tooyumblue,
+    //   originalPrice: 40,
     //   discountedPrice: 30,
     // //   discountPercent: 50,
     // },
     // {
     //   id: 16,
-    //   name: "Ying Yang Hakka Noodles",
-    //   image: hakka,
-    //   originalPrice: 69,
-    //   discountedPrice: 65,
+    //   name: "DORITOS NACHO SWEET CHILLI 153G",
+    //   image: doritos,
+    //   originalPrice: 95,
+    //   discountedPrice: 90,
     // //   discountPercent: 37,
     // },
     // {
@@ -190,7 +190,7 @@ const Sweet = () => {
   ];
 
   const categories = [
-    { img: Biscuits_Cookies, label: "Biscuits & Cookies" },
+    { img: Biscuits_Cookies, label: "Biscuits & Cookies" }, 
     { img: Breakfastmain, label: "BreakFast & Cereals" },
     { img: Chocolatesmain, label: "Chocolates & Candies" },
     { img: Ketchupmain, label: "Ketchup & Sauces" },
@@ -252,7 +252,7 @@ const Sweet = () => {
         <div className="flex-1">
           {/* Banner */}
           <span className="font-bold text-lg sm:text-2xl">
-            Sweets 
+            Drinks & Beverages
           </span>
 
           {/* Product Grid */}
@@ -306,4 +306,4 @@ const Sweet = () => {
   );
 };
 
-export default Sweet;
+export default Snackss;
