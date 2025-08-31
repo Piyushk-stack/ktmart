@@ -98,15 +98,34 @@ const Hero = () => {
     navigate("/ghee");
   }
 
+  const handleMasalaClick = () => {
+    navigate("/masala1");
+  }
+
+  const handleDairyClick = () => {
+    navigate("/dairy");
+  }
+
+  const handleDryClick = () => {
+    navigate("/dryfruits");
+  }
+ const handleRiceClick = () => {
+    navigate("/rice");
+  }
+
+  const handleTeaClick = () => {
+    navigate("/tea");
+  }
+
   const row1 = [
     { img: atta, label: "Atta, Rice & Dal", onClick: handleGroceryClick },
     { img: cookingoil, label: "Cooking Oil", onClick: handleCookingClick },
     { img: ghee, label: "Ghee & Vanaspati", onClick: handleGheeClick },
-    { img: masale, label: "Masala & Spices" },
-    { img: tea, label: "Tea, Coffee & Beverages" },
-    { img: dairy, label: "Dairy, Bread & Eggs" },
-    { img: dryfruits, label: "Dry Fruits" },
-    { img: organicfood, label: "Organic Foods" },
+    { img: masale, label: "Masala & Spices" , onClick: handleMasalaClick },
+    { img: tea, label: "Tea, Coffee & Beverages" , onClick: handleTeaClick },
+    { img: dairy, label: "Dairy, Bread & Eggs" , onClick: handleDairyClick },
+    { img: dryfruits, label: "Dry Fruits" , onClick: handleDryClick },
+    { img: organicfood, label: "Organic Foods", onClick: handleRiceClick },
   ];
 
   const row2 = [

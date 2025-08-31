@@ -11,6 +11,11 @@ import Jamss from "./pages/PackagedFoods/Jamss";
 import Sweet from "./pages/PackagedFoods/Sweet";
 import Cookingoil1 from "./pages/Grocery/kcookingoil/Cookingoil1";
 import Ghee from "./pages/Grocery/gheeandvanaspati/Ghee";
+import Masala1 from "./pages/Grocery/masala/Masala1";
+import Dairy1 from "./pages/Grocery/DairyandBread/Dairy1";
+import Dry1 from "./pages/Grocery/dryfruits/Dry1";
+import Rice from "./pages/Grocery/riceandrice/Rice";
+import Tea from "./pages/Grocery/TeaandCofee/Tea";
 // import Snackss from "./pages/PackagedFoods/Snackss";
 
 // Temporary Login Page (you can style later)
@@ -43,6 +48,11 @@ const App = () => {
         <Route path="/sweets" element={<Sweet/>} />
         <Route path="/cookingoil1" element={<Cookingoil1/>} />
         <Route path="/ghee" element={<Ghee/>} />
+        <Route path="/masala1" element={<Masala1/>} />
+        <Route path="/dairy" element={<Dairy1/>} />
+        <Route path="/dryfruits" element={<Dry1/>} />
+        <Route path="/rice" element={<Rice/>} />
+        <Route path="/tea" element={<Tea/>} />
         {/* <Route path="/snacks&drinks" element={<Snackss/>} /> */}
       </Routes>
     </Router>
