@@ -17,6 +17,14 @@ import Dairy1 from "./pages/Grocery/DairyandBread/Dairy1";
 import Dry1 from "./pages/Grocery/dryfruits/Dry1";
 import Rice from "./pages/Grocery/riceandrice/Rice";
 import Tea from "./pages/Grocery/TeaandCofee/Tea";
+import Orall from "./pages/Beauty&PersonalCare/Orall";
+import  Baby  from "./pages/Beauty&PersonalCare/Baby";
+import Bathandbody from "./pages/Beauty&PersonalCare/Bathandbody";
+import Beautyy from "./pages/Beauty&PersonalCare/Beautyy";
+import HairCare from "./pages/Beauty&PersonalCare/HairCare";
+import HealthP from "./pages/Beauty&PersonalCare/HealthP"
+import Drinkss from "./pages/PackagedFoods/Drinkss";
+
 // import Snackss from "./pages/PackagedFoods/Snackss";
 
 // Temporary Login Page (you can style later)
@@ -47,14 +55,21 @@ const App = () => {
         <Route path="/pastaa" element={<Pasta/>} />
         <Route path="/jamss" element={<Jamss/>} />
         <Route path="/sweets" element={<Sweet/>} />
-        <Route path="/cookingoil1" element={<Cookingoil1/>} />
+        <Route path="/cookingoil" element={<Cookingoil1/>} />
         <Route path="/ghee" element={<Ghee/>} />
         <Route path="/masala1" element={<Masala1/>} />
         <Route path="/dairy" element={<Dairy1/>} />
         <Route path="/dryfruits" element={<Dry1/>} />
         <Route path="/rice" element={<Rice/>} />
         <Route path="/tea" element={<Tea/>} />
-        {/* <Route path="/snacks&drinks" element={<Snackss/>} /> */}
+        <Route path="/oral" element={<Orall/>} />
+        <Route path="/baby" element={<Baby/>} />
+        <Route path="/bath" element={<Bathandbody/>} />
+        <Route path="/beauty" element={<Beautyy/>} />
+        <Route path="/haircare" element={<HairCare/>} />
+        <Route path="/health" element={<HealthP/>} />
+        <Route path="/drinks" element={<Drinkss/>} />
+         <Route path="/snacksdrinks" element={<Snackss/>} /> 
       </Routes>
     </Router>
   );

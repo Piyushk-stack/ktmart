@@ -87,7 +87,7 @@ const Hero = () => {
   }
 
   const handleSnacksClick = () => {
-    navigate("/snacks&drinks");
+    navigate("/snacksdrinks");
   }
 
   const handleCookingClick = () => {
@@ -117,6 +117,31 @@ const Hero = () => {
     navigate("/tea");
   }
 
+  const handleDrinnksClick = () => {
+    navigate("/drinks");
+  }
+
+   const handleoralClick = () => {
+    navigate("/oral")
+   }
+
+   const handleHairClick = () => {
+     navigate("/haircare")
+   }
+
+   const handleBathClick = () => {
+    navigate ("/bath")
+   }
+
+   const handleBabyClick = () => {
+    navigate("/baby");
+   }
+   const handleBeautyClick = () => {
+    navigate("/beauty");
+   }
+   const handleHealthClick = () => {
+    navigate ("/health");
+   }
   const row1 = [
     { img: atta, label: "Atta, Rice & Dal", onClick: handleGroceryClick },
     { img: cookingoil, label: "Cooking Oil", onClick: handleCookingClick },
